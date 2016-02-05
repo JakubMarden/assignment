@@ -1,0 +1,15 @@
+Zadani:
+
+Vytvorte webovou kalkulacku v PHP bez pouziti PHP funkce eval, ci SQL. 
+Vstupem bude textove pole, kam zadam matematicky vypocet. Po kliknuti na tlacitko "Spocitat", mi bude zobrazen vysledek vypoctu nebo chyba. 
+Kalkulator by mel umet vsechny bezne matematicke operace (scitani, odcitani, deleni, nasobeni, mocninu ^), a kulate zavorky, samozrejme s neomezenym poctem zanoreni. 
+Kalkulator musi urcovat spravnou precedenci operatoru a zavorek, tak jak je bezne.
+
+Priklady:
+"-578 * 12 + 7 / (5 - 2^3)", kliknu na "Spocitat" a vyjde mi -6938,3333
+"578 * 12 + 7 / ((5 - 2^3)", kliknu na "Spocitat" a zobrazi se chyba "Nebyla nalezena uzaviraci zavorka"
+"2/(1-1)", kliknu na "Spocitat" a zobrazi se chyba "Deleni nulou"
+"1-7*(-2*2)", kliknu na "Spocitat" a vyjde mi 29
+"-1- -1", kliknu na "Spocitat" a vyjde mi 0
+
+Reseni provedte do jednoho souboru bez pouziti frameworku.
