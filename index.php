@@ -2,12 +2,12 @@
 
 <html>
     <head>
-        <title>Vizus kalkulačka</title>
+        <title> kalkulačka</title>
         
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Formulář pro online kalkulátor"/>
-        <meta name="keywords" content="Vizus, online kalkulačka, Assignment"/>
+        <meta name="keywords" content=", online kalkulačka, Assignment"/>
         <meta name="author" content="Josef Jakub Jestřáb"/>
         <meta name="Robots" content="none"/>
         
@@ -15,7 +15,7 @@
     </head>
     <body>
         <div id = header>
-            <h1 class = "nor">Vizus kalkulačka</h1><br />
+            <h1 class = "nor"> kalkulačka</h1><br />
             <?php 
                 @session_start();
                 if((isset($_SESSION["info"])) && (!empty($_SESSION["info"]))){ ?>                 
@@ -42,7 +42,7 @@
                     </form>
                 </div>    
             </div>
-            <p class = "p10">Vizus@copyright</p>
+            <p class = "p10">@copyright</p>
     </body>
 </html>
 
